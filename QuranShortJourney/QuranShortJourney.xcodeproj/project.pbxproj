@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C455E14188CD997005F8355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C455E13188CD997005F8355 /* Foundation.framework */; };
+		3C455E16188CD997005F8355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C455E15188CD997005F8355 /* CoreGraphics.framework */; };
+		3C455E18188CD997005F8355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C455E17188CD997005F8355 /* UIKit.framework */; };
+		3C455E1E188CD997005F8355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C455E1C188CD997005F8355 /* InfoPlist.strings */; };
+		3C455E20188CD997005F8355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C455E1F188CD997005F8355 /* main.m */; };
+		3C455E24188CD997005F8355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C455E23188CD997005F8355 /* AppDelegate.m */; };
+		3C455E27188CD997005F8355 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C455E25188CD997005F8355 /* Main_iPhone.storyboard */; };
+		3C455E2A188CD997005F8355 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C455E28188CD997005F8355 /* Main_iPad.storyboard */; };
+		3C455E2D188CD997005F8355 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C455E2C188CD997005F8355 /* GridViewController.m */; };
+		3C455E2F188CD997005F8355 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C455E2E188CD997005F8355 /* Images.xcassets */; };
+		3C455E36188CD997005F8355 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C455E35188CD997005F8355 /* XCTest.framework */; };
+		3C455E37188CD997005F8355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C455E13188CD997005F8355 /* Foundation.framework */; };
+		3C455E38188CD997005F8355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C455E17188CD997005F8355 /* UIKit.framework */; };
+		3C455E40188CD997005F8355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C455E3E188CD997005F8355 /* InfoPlist.strings */; };
+		3C455E42188CD997005F8355 /* QuranShortJourneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C455E41188CD997005F8355 /* QuranShortJourneyTests.m */; };
+		3C887E1F189EBB440024F04D /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C887E1E189EBB440024F04D /* DataManager.m */; };
+		3C887E23189EBF580024F04D /* ThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C887E22189EBF580024F04D /* ThumbnailCell.m */; };
+		3C887E9D189EC3670024F04D /* Arrogance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E25189EC3670024F04D /* Arrogance.jpg */; };
+		3C887E9E189EC3670024F04D /* AtomsWeight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E26189EC3670024F04D /* AtomsWeight.jpg */; };
+		3C887E9F189EC3670024F04D /* Balance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E27189EC3670024F04D /* Balance.jpg */; };
+		3C887EA0189EC3670024F04D /* Charity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E28189EC3670024F04D /* Charity.jpg */; };
+		3C887EA1189EC3670024F04D /* ClingingSubstance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E29189EC3670024F04D /* ClingingSubstance.jpg */; };
+		3C887EA2189EC3670024F04D /* CloserAndCloser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E2A189EC3670024F04D /* CloserAndCloser.jpg */; };
+		3C887EA3189EC3670024F04D /* CommonGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E2B189EC3670024F04D /* CommonGround.jpg */; };
+		3C887EA4189EC3670024F04D /* CommonKindness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E2C189EC3670024F04D /* CommonKindness.jpg */; };
+		3C887EA5189EC3670024F04D /* Contemplation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E2D189EC3670024F04D /* Contemplation.jpg */; };
+		3C887EA6189EC3670024F04D /* Contentment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E2E189EC3670024F04D /* Contentment.jpg */; };
+		3C887EA7189EC3670024F04D /* Conviction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E2F189EC3670024F04D /* Conviction.jpg */; };
+		3C887EA8189EC3670024F04D /* Corruption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E30189EC3670024F04D /* Corruption.jpg */; };
+		3C887EA9189EC3670024F04D /* CreationOfTheUniverse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E31189EC3670024F04D /* CreationOfTheUniverse.jpg */; };
+		3C887EAA189EC3670024F04D /* Daybreak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E32189EC3670024F04D /* Daybreak.jpg */; };
+		3C887EAB189EC3670024F04D /* DayOfJudgement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E33189EC3670024F04D /* DayOfJudgement.jpg */; };
+		3C887EAC189EC3670024F04D /* Death.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E34189EC3670024F04D /* Death.jpg */; };
+		3C887EAD189EC3670024F04D /* DepressionAndSatisfaction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E35189EC3670024F04D /* DepressionAndSatisfaction.jpg */; };
+		3C887EAE189EC3670024F04D /* Destiny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E36189EC3670024F04D /* Destiny.jpg */; };
+		3C887EAF189EC3670024F04D /* DifficultCreation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E37189EC3670024F04D /* DifficultCreation.jpg */; };
+		3C887EB0189EC3670024F04D /* Disbelievers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E38189EC3670024F04D /* Disbelievers.jpg */; };
+		3C887EB1189EC3670024F04D /* Disgrace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E39189EC3670024F04D /* Disgrace.jpg */; };
+		3C887EB2189EC3670024F04D /* DivineLove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E3A189EC3670024F04D /* DivineLove.jpg */; };
+		3C887EB3189EC3670024F04D /* DropOfFluid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E3B189EC3670024F04D /* DropOfFluid.jpg */; };
+		3C887EB4189EC3670024F04D /* EaseAndHardship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E3C189EC3670024F04D /* EaseAndHardship.jpg */; };
+		3C887EB5189EC3670024F04D /* Equality.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E3D189EC3670024F04D /* Equality.jpg */; };
+		3C887EB6189EC3670024F04D /* Favours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E3E189EC3670024F04D /* Favours.jpg */; };
+		3C887EB7189EC3670024F04D /* Forgiveness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E3F189EC3670024F04D /* Forgiveness.jpg */; };
+		3C887EB8189EC3670024F04D /* FriendsOfGod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E40189EC3670024F04D /* FriendsOfGod.jpg */; };
+		3C887EB9189EC3670024F04D /* God.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E41189EC3670024F04D /* God.jpg */; };
+		3C887EBA189EC3670024F04D /* GodsKnowledge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E42189EC3670024F04D /* GodsKnowledge.jpg */; };
+		3C887EBB189EC3670024F04D /* GodsNames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E43189EC3670024F04D /* GodsNames.jpg */; };
+		3C887EBC189EC3670024F04D /* GodsOneness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E44189EC3670024F04D /* GodsOneness.jpg */; };
+		3C887EBD189EC3670024F04D /* GoodAndBadWord.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E45189EC3670024F04D /* GoodAndBadWord.jpg */; };
+		3C887EBE189EC3670024F04D /* Goodness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E46189EC3670024F04D /* Goodness.jpg */; };
+		3C887EBF189EC3670024F04D /* Gratitude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E47189EC3670024F04D /* Gratitude.jpg */; };
+		3C887EC0189EC3670024F04D /* Guidance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E48189EC3670024F04D /* Guidance.jpg */; };
+		3C887EC1189EC3670024F04D /* Healing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E49189EC3670024F04D /* Healing.jpg */; };
+		3C887EC2189EC3670024F04D /* Honour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E4A189EC3670024F04D /* Honour.jpg */; };
+		3C887EC3189EC3670024F04D /* HostileAndFriendlyDisbelievers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E4B189EC3670024F04D /* HostileAndFriendlyDisbelievers.jpg */; };
+		3C887EC4189EC3670024F04D /* Human.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E4C189EC3670024F04D /* Human.jpg */; };
+		3C887EC5189EC3670024F04D /* Humanity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E4D189EC3670024F04D /* Humanity.jpg */; };
+		3C887EC6189EC3670024F04D /* Humankind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E4E189EC3670024F04D /* Humankind.jpg */; };
+		3C887EC7189EC3670024F04D /* ImportanceOfReasoning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E4F189EC3670024F04D /* ImportanceOfReasoning.jpg */; };
+		3C887EC8189EC3670024F04D /* InimitableQuran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E50189EC3670024F04D /* InimitableQuran.jpg */; };
+		3C887EC9189EC3670024F04D /* InnerPeace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E51189EC3670024F04D /* InnerPeace.jpg */; };
+		3C887ECA189EC3670024F04D /* Islam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E52189EC3670024F04D /* Islam.jpg */; };
+		3C887ECB189EC3670024F04D /* Jesus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E53189EC3670024F04D /* Jesus.jpg */; };
+		3C887ECC189EC3670024F04D /* Jihad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E54189EC3670024F04D /* Jihad.jpg */; };
+		3C887ECD189EC3670024F04D /* Kinship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E55189EC3670024F04D /* Kinship.jpg */; };
+		3C887ECE189EC3670024F04D /* LawfulAndUnlawful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E56189EC3670024F04D /* LawfulAndUnlawful.jpg */; };
+		3C887ECF189EC3670024F04D /* Light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E57189EC3670024F04D /* Light.jpg */; };
+		3C887ED0189EC3670024F04D /* Longing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E58189EC3670024F04D /* Longing.jpg */; };
+		3C887ED1189EC3670024F04D /* LoveOfWealth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E59189EC3670024F04D /* LoveOfWealth.jpg */; };
+		3C887ED2189EC3670024F04D /* Mary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E5A189EC3670024F04D /* Mary.jpg */; };
+		3C887ED3189EC3670024F04D /* Materialism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E5B189EC3670024F04D /* Materialism.jpg */; };
+		3C887ED4189EC3670024F04D /* MenAndWomen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E5C189EC3670024F04D /* MenAndWomen.jpg */; };
+		3C887ED5189EC3670024F04D /* Mercy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E5D189EC3670024F04D /* Mercy.jpg */; };
+		3C887ED6189EC3670024F04D /* Misfortune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E5E189EC3670024F04D /* Misfortune.jpg */; };
+		3C887ED7189EC3670024F04D /* MorningBrightness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E5F189EC3670024F04D /* MorningBrightness.jpg */; };
+		3C887ED8189EC3670024F04D /* Muhammad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E60189EC3670024F04D /* Muhammad.jpg */; };
+		3C887ED9189EC3670024F04D /* NaturalReligion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E61189EC3670024F04D /* NaturalReligion.jpg */; };
+		3C887EDA189EC3670024F04D /* Nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E62189EC3670024F04D /* Nature.jpg */; };
+		3C887EDB189EC3670024F04D /* Observation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E63189EC3670024F04D /* Observation.jpg */; };
+		3C887EDC189EC3670024F04D /* Pleasure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E64189EC3670024F04D /* Pleasure.jpg */; };
+		3C887EDD189EC3670024F04D /* Powerless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E65189EC3670024F04D /* Powerless.jpg */; };
+		3C887EDE189EC3670024F04D /* Prayer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E66189EC3670024F04D /* Prayer.jpg */; };
+		3C887EDF189EC3670024F04D /* PreviousRevelations.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E67189EC3670024F04D /* PreviousRevelations.jpg */; };
+		3C887EE0189EC3670024F04D /* Purpose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E68189EC3670024F04D /* Purpose.jpg */; };
+		3C887EE1189EC3670024F04D /* Quran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E69189EC3670024F04D /* Quran.jpg */; };
+		3C887EE2189EC3670024F04D /* Reflection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E6A189EC3670024F04D /* Reflection.jpg */; };
+		3C887EE3189EC3670024F04D /* RejectingReason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E6B189EC3670024F04D /* RejectingReason.jpg */; };
+		3C887EE4189EC3670024F04D /* ReligionOfAbraham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E6C189EC3670024F04D /* ReligionOfAbraham.jpg */; };
+		3C887EE5189EC3670024F04D /* RepellingEvil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E6D189EC3670024F04D /* RepellingEvil.jpg */; };
+		3C887EE6189EC3670024F04D /* Resurrection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E6E189EC3670024F04D /* Resurrection.jpg */; };
+		3C887EE7189EC3670024F04D /* SeeingGod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E6F189EC3670024F04D /* SeeingGod.jpg */; };
+		3C887EE8189EC3670024F04D /* SignsOfGod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E70189EC3670024F04D /* SignsOfGod.jpg */; };
+		3C887EE9189EC3670024F04D /* Sincerity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E71189EC3670024F04D /* Sincerity.jpg */; };
+		3C887EEA189EC3670024F04D /* SocialJustice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E72189EC3670024F04D /* SocialJustice.jpg */; };
+		3C887EEB189EC3670024F04D /* StageToStage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E73189EC3670024F04D /* StageToStage.jpg */; };
+		3C887EEC189EC3670024F04D /* SteepRoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E74189EC3670024F04D /* SteepRoad.jpg */; };
+		3C887EED189EC3670024F04D /* Submission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E75189EC3670024F04D /* Submission.jpg */; };
+		3C887EEE189EC3670024F04D /* TenCommandments.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E76189EC3670024F04D /* TenCommandments.jpg */; };
+		3C887EEF189EC3670024F04D /* TheAnnouncement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E77189EC3670024F04D /* TheAnnouncement.jpg */; };
+		3C887EF0189EC3670024F04D /* TheBee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E78189EC3670024F04D /* TheBee.jpg */; };
+		3C887EF1189EC3670024F04D /* TheBelieversPrayer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E79189EC3670024F04D /* TheBelieversPrayer.jpg */; };
+		3C887EF2189EC3670024F04D /* TheBooks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E7A189EC3670024F04D /* TheBooks.jpg */; };
+		3C887EF3189EC3670024F04D /* TheCreatorOfColour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E7B189EC3670024F04D /* TheCreatorOfColour.jpg */; };
+		3C887EF4189EC3670024F04D /* TheEase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E7C189EC3670024F04D /* TheEase.jpg */; };
+		3C887EF5189EC3670024F04D /* TheGardeners.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E7D189EC3670024F04D /* TheGardeners.jpg */; };
+		3C887EF6189EC3670024F04D /* TheHumble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E7E189EC3670024F04D /* TheHumble.jpg */; };
+		3C887EF7189EC3670024F04D /* TheIndependent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E7F189EC3670024F04D /* TheIndependent.jpg */; };
+		3C887EF8189EC3670024F04D /* TheInevitable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E80189EC3670024F04D /* TheInevitable.jpg */; };
+		3C887EF9189EC3670024F04D /* TheLastDay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E81189EC3670024F04D /* TheLastDay.jpg */; };
+		3C887EFA189EC3670024F04D /* TheMessenger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E82189EC3670024F04D /* TheMessenger.jpg */; };
+		3C887EFB189EC3670024F04D /* TheMuslims.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E83189EC3670024F04D /* TheMuslims.jpg */; };
+		3C887EFC189EC3670024F04D /* TheNaturalExtension.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E84189EC3670024F04D /* TheNaturalExtension.jpg */; };
+		3C887EFD189EC3670024F04D /* TheOpening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E85189EC3670024F04D /* TheOpening.jpg */; };
+		3C887EFE189EC3670024F04D /* TheQuran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E86189EC3670024F04D /* TheQuran.jpg */; };
+		3C887EFF189EC3670024F04D /* TheRaceForWealth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E87189EC3670024F04D /* TheRaceForWealth.jpg */; };
+		3C887F00189EC3670024F04D /* TheReward.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E88189EC3670024F04D /* TheReward.jpg */; };
+		3C887F01189EC3670024F04D /* TheSceptic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E89189EC3670024F04D /* TheSceptic.jpg */; };
+		3C887F02189EC3670024F04D /* TheShadow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E8A189EC3670024F04D /* TheShadow.jpg */; };
+		3C887F03189EC3670024F04D /* TheStoryOfQarun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E8B189EC3670024F04D /* TheStoryOfQarun.jpg */; };
+		3C887F04189EC3670024F04D /* TheTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E8C189EC3670024F04D /* TheTest.jpg */; };
+		3C887F05189EC3670024F04D /* TheTrance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E8D189EC3670024F04D /* TheTrance.jpg */; };
+		3C887F06189EC3670024F04D /* TheWayOfTheProphets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E8E189EC3670024F04D /* TheWayOfTheProphets.jpg */; };
+		3C887F07189EC3670024F04D /* ThisLife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E8F189EC3670024F04D /* ThisLife.jpg */; };
+		3C887F08189EC3670024F04D /* Time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E90189EC3670024F04D /* Time.jpg */; };
+		3C887F09189EC3670024F04D /* Tranquility.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E91189EC3670024F04D /* Tranquility.jpg */; };
+		3C887F0A189EC3670024F04D /* Trinity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E92189EC3670024F04D /* Trinity.jpg */; };
+		3C887F0B189EC3670024F04D /* TruthAndFalsehood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E93189EC3670024F04D /* TruthAndFalsehood.jpg */; };
+		3C887F0C189EC3670024F04D /* TwoBrothers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E94189EC3670024F04D /* TwoBrothers.jpg */; };
+		3C887F0D189EC3670024F04D /* UniversalJustice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E95189EC3670024F04D /* UniversalJustice.jpg */; };
+		3C887F0E189EC3670024F04D /* UsingReason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E96189EC3670024F04D /* UsingReason.jpg */; };
+		3C887F0F189EC3670024F04D /* UsingYourGifts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E97189EC3670024F04D /* UsingYourGifts.jpg */; };
+		3C887F10189EC3670024F04D /* Vision.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E98189EC3670024F04D /* Vision.jpg */; };
+		3C887F11189EC3670024F04D /* WhenInNeed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E99189EC3670024F04D /* WhenInNeed.jpg */; };
+		3C887F12189EC3670024F04D /* Wisdom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E9A189EC3670024F04D /* Wisdom.jpg */; };
+		3C887F13189EC3670024F04D /* WorkWithoutFaith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E9B189EC3670024F04D /* WorkWithoutFaith.jpg */; };
+		3C887F14189EC3670024F04D /* Worship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C887E9C189EC3670024F04D /* Worship.jpg */; };
+		3C887F17189ECFE60024F04D /* GridFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C887F16189ECFE60024F04D /* GridFlowLayout.m */; };
+		3C887F19189EEFF00024F04D /* ThumbnailsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C887F18189EEFF00024F04D /* ThumbnailsData.plist */; };
+		3C887F1D189EF1FD0024F04D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C887F1C189EF1FD0024F04D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C455E39188CD997005F8355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C455E08188CD996005F8355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C455E0F188CD997005F8355;
+			remoteInfo = QuranShortJourney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C455E10188CD997005F8355 /* QuranShortJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranShortJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C455E13188CD997005F8355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C455E15188CD997005F8355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C455E17188CD997005F8355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C455E1B188CD997005F8355 /* QuranShortJourney-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuranShortJourney-Info.plist"; sourceTree = "<group>"; };
+		3C455E1D188CD997005F8355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C455E1F188CD997005F8355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C455E21188CD997005F8355 /* QuranShortJourney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuranShortJourney-Prefix.pch"; sourceTree = "<group>"; };
+		3C455E22188CD997005F8355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C455E23188CD997005F8355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C455E26188CD997005F8355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3C455E29188CD997005F8355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3C455E2B188CD997005F8355 /* GridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		3C455E2C188CD997005F8355 /* GridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		3C455E2E188CD997005F8355 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C455E34188CD997005F8355 /* QuranShortJourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuranShortJourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C455E35188CD997005F8355 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C455E3D188CD997005F8355 /* QuranShortJourneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuranShortJourneyTests-Info.plist"; sourceTree = "<group>"; };
+		3C455E3F188CD997005F8355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C455E41188CD997005F8355 /* QuranShortJourneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuranShortJourneyTests.m; sourceTree = "<group>"; };
+		3C887E1D189EBB440024F04D /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		3C887E1E189EBB440024F04D /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		3C887E21189EBF580024F04D /* ThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailCell.h; sourceTree = "<group>"; };
+		3C887E22189EBF580024F04D /* ThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailCell.m; sourceTree = "<group>"; };
+		3C887E25189EC3670024F04D /* Arrogance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arrogance.jpg; sourceTree = "<group>"; };
+		3C887E26189EC3670024F04D /* AtomsWeight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AtomsWeight.jpg; sourceTree = "<group>"; };
+		3C887E27189EC3670024F04D /* Balance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balance.jpg; sourceTree = "<group>"; };
+		3C887E28189EC3670024F04D /* Charity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Charity.jpg; sourceTree = "<group>"; };
+		3C887E29189EC3670024F04D /* ClingingSubstance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClingingSubstance.jpg; sourceTree = "<group>"; };
+		3C887E2A189EC3670024F04D /* CloserAndCloser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CloserAndCloser.jpg; sourceTree = "<group>"; };
+		3C887E2B189EC3670024F04D /* CommonGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CommonGround.jpg; sourceTree = "<group>"; };
+		3C887E2C189EC3670024F04D /* CommonKindness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CommonKindness.jpg; sourceTree = "<group>"; };
+		3C887E2D189EC3670024F04D /* Contemplation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Contemplation.jpg; sourceTree = "<group>"; };
+		3C887E2E189EC3670024F04D /* Contentment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Contentment.jpg; sourceTree = "<group>"; };
+		3C887E2F189EC3670024F04D /* Conviction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Conviction.jpg; sourceTree = "<group>"; };
+		3C887E30189EC3670024F04D /* Corruption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Corruption.jpg; sourceTree = "<group>"; };
+		3C887E31189EC3670024F04D /* CreationOfTheUniverse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CreationOfTheUniverse.jpg; sourceTree = "<group>"; };
+		3C887E32189EC3670024F04D /* Daybreak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Daybreak.jpg; sourceTree = "<group>"; };
+		3C887E33189EC3670024F04D /* DayOfJudgement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DayOfJudgement.jpg; sourceTree = "<group>"; };
+		3C887E34189EC3670024F04D /* Death.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Death.jpg; sourceTree = "<group>"; };
+		3C887E35189EC3670024F04D /* DepressionAndSatisfaction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DepressionAndSatisfaction.jpg; sourceTree = "<group>"; };
+		3C887E36189EC3670024F04D /* Destiny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Destiny.jpg; sourceTree = "<group>"; };
+		3C887E37189EC3670024F04D /* DifficultCreation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DifficultCreation.jpg; sourceTree = "<group>"; };
+		3C887E38189EC3670024F04D /* Disbelievers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Disbelievers.jpg; sourceTree = "<group>"; };
+		3C887E39189EC3670024F04D /* Disgrace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Disgrace.jpg; sourceTree = "<group>"; };
+		3C887E3A189EC3670024F04D /* DivineLove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DivineLove.jpg; sourceTree = "<group>"; };
+		3C887E3B189EC3670024F04D /* DropOfFluid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DropOfFluid.jpg; sourceTree = "<group>"; };
+		3C887E3C189EC3670024F04D /* EaseAndHardship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EaseAndHardship.jpg; sourceTree = "<group>"; };
+		3C887E3D189EC3670024F04D /* Equality.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Equality.jpg; sourceTree = "<group>"; };
+		3C887E3E189EC3670024F04D /* Favours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Favours.jpg; sourceTree = "<group>"; };
+		3C887E3F189EC3670024F04D /* Forgiveness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forgiveness.jpg; sourceTree = "<group>"; };
+		3C887E40189EC3670024F04D /* FriendsOfGod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FriendsOfGod.jpg; sourceTree = "<group>"; };
+		3C887E41189EC3670024F04D /* God.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = God.jpg; sourceTree = "<group>"; };
+		3C887E42189EC3670024F04D /* GodsKnowledge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GodsKnowledge.jpg; sourceTree = "<group>"; };
+		3C887E43189EC3670024F04D /* GodsNames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GodsNames.jpg; sourceTree = "<group>"; };
+		3C887E44189EC3670024F04D /* GodsOneness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GodsOneness.jpg; sourceTree = "<group>"; };
+		3C887E45189EC3670024F04D /* GoodAndBadWord.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GoodAndBadWord.jpg; sourceTree = "<group>"; };
+		3C887E46189EC3670024F04D /* Goodness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Goodness.jpg; sourceTree = "<group>"; };
+		3C887E47189EC3670024F04D /* Gratitude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gratitude.jpg; sourceTree = "<group>"; };
+		3C887E48189EC3670024F04D /* Guidance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guidance.jpg; sourceTree = "<group>"; };
+		3C887E49189EC3670024F04D /* Healing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Healing.jpg; sourceTree = "<group>"; };
+		3C887E4A189EC3670024F04D /* Honour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Honour.jpg; sourceTree = "<group>"; };
+		3C887E4B189EC3670024F04D /* HostileAndFriendlyDisbelievers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HostileAndFriendlyDisbelievers.jpg; sourceTree = "<group>"; };
+		3C887E4C189EC3670024F04D /* Human.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Human.jpg; sourceTree = "<group>"; };
+		3C887E4D189EC3670024F04D /* Humanity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Humanity.jpg; sourceTree = "<group>"; };
+		3C887E4E189EC3670024F04D /* Humankind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Humankind.jpg; sourceTree = "<group>"; };
+		3C887E4F189EC3670024F04D /* ImportanceOfReasoning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImportanceOfReasoning.jpg; sourceTree = "<group>"; };
+		3C887E50189EC3670024F04D /* InimitableQuran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InimitableQuran.jpg; sourceTree = "<group>"; };
+		3C887E51189EC3670024F04D /* InnerPeace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InnerPeace.jpg; sourceTree = "<group>"; };
+		3C887E52189EC3670024F04D /* Islam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Islam.jpg; sourceTree = "<group>"; };
+		3C887E53189EC3670024F04D /* Jesus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jesus.jpg; sourceTree = "<group>"; };
+		3C887E54189EC3670024F04D /* Jihad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jihad.jpg; sourceTree = "<group>"; };
+		3C887E55189EC3670024F04D /* Kinship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kinship.jpg; sourceTree = "<group>"; };
+		3C887E56189EC3670024F04D /* LawfulAndUnlawful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LawfulAndUnlawful.jpg; sourceTree = "<group>"; };
+		3C887E57189EC3670024F04D /* Light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Light.jpg; sourceTree = "<group>"; };
+		3C887E58189EC3670024F04D /* Longing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Longing.jpg; sourceTree = "<group>"; };
+		3C887E59189EC3670024F04D /* LoveOfWealth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoveOfWealth.jpg; sourceTree = "<group>"; };
+		3C887E5A189EC3670024F04D /* Mary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mary.jpg; sourceTree = "<group>"; };
+		3C887E5B189EC3670024F04D /* Materialism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Materialism.jpg; sourceTree = "<group>"; };
+		3C887E5C189EC3670024F04D /* MenAndWomen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MenAndWomen.jpg; sourceTree = "<group>"; };
+		3C887E5D189EC3670024F04D /* Mercy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercy.jpg; sourceTree = "<group>"; };
+		3C887E5E189EC3670024F04D /* Misfortune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Misfortune.jpg; sourceTree = "<group>"; };
+		3C887E5F189EC3670024F04D /* MorningBrightness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MorningBrightness.jpg; sourceTree = "<group>"; };
+		3C887E60189EC3670024F04D /* Muhammad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Muhammad.jpg; sourceTree = "<group>"; };
+		3C887E61189EC3670024F04D /* NaturalReligion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NaturalReligion.jpg; sourceTree = "<group>"; };
+		3C887E62189EC3670024F04D /* Nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nature.jpg; sourceTree = "<group>"; };
+		3C887E63189EC3670024F04D /* Observation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Observation.jpg; sourceTree = "<group>"; };
+		3C887E64189EC3670024F04D /* Pleasure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pleasure.jpg; sourceTree = "<group>"; };
+		3C887E65189EC3670024F04D /* Powerless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Powerless.jpg; sourceTree = "<group>"; };
+		3C887E66189EC3670024F04D /* Prayer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Prayer.jpg; sourceTree = "<group>"; };
+		3C887E67189EC3670024F04D /* PreviousRevelations.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreviousRevelations.jpg; sourceTree = "<group>"; };
+		3C887E68189EC3670024F04D /* Purpose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Purpose.jpg; sourceTree = "<group>"; };
+		3C887E69189EC3670024F04D /* Quran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quran.jpg; sourceTree = "<group>"; };
+		3C887E6A189EC3670024F04D /* Reflection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Reflection.jpg; sourceTree = "<group>"; };
+		3C887E6B189EC3670024F04D /* RejectingReason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RejectingReason.jpg; sourceTree = "<group>"; };
+		3C887E6C189EC3670024F04D /* ReligionOfAbraham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ReligionOfAbraham.jpg; sourceTree = "<group>"; };
+		3C887E6D189EC3670024F04D /* RepellingEvil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RepellingEvil.jpg; sourceTree = "<group>"; };
+		3C887E6E189EC3670024F04D /* Resurrection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Resurrection.jpg; sourceTree = "<group>"; };
+		3C887E6F189EC3670024F04D /* SeeingGod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SeeingGod.jpg; sourceTree = "<group>"; };
+		3C887E70189EC3670024F04D /* SignsOfGod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignsOfGod.jpg; sourceTree = "<group>"; };
+		3C887E71189EC3670024F04D /* Sincerity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sincerity.jpg; sourceTree = "<group>"; };
+		3C887E72189EC3670024F04D /* SocialJustice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SocialJustice.jpg; sourceTree = "<group>"; };
+		3C887E73189EC3670024F04D /* StageToStage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StageToStage.jpg; sourceTree = "<group>"; };
+		3C887E74189EC3670024F04D /* SteepRoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SteepRoad.jpg; sourceTree = "<group>"; };
+		3C887E75189EC3670024F04D /* Submission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Submission.jpg; sourceTree = "<group>"; };
+		3C887E76189EC3670024F04D /* TenCommandments.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TenCommandments.jpg; sourceTree = "<group>"; };
+		3C887E77189EC3670024F04D /* TheAnnouncement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheAnnouncement.jpg; sourceTree = "<group>"; };
+		3C887E78189EC3670024F04D /* TheBee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBee.jpg; sourceTree = "<group>"; };
+		3C887E79189EC3670024F04D /* TheBelieversPrayer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBelieversPrayer.jpg; sourceTree = "<group>"; };
+		3C887E7A189EC3670024F04D /* TheBooks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBooks.jpg; sourceTree = "<group>"; };
+		3C887E7B189EC3670024F04D /* TheCreatorOfColour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheCreatorOfColour.jpg; sourceTree = "<group>"; };
+		3C887E7C189EC3670024F04D /* TheEase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheEase.jpg; sourceTree = "<group>"; };
+		3C887E7D189EC3670024F04D /* TheGardeners.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGardeners.jpg; sourceTree = "<group>"; };
+		3C887E7E189EC3670024F04D /* TheHumble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheHumble.jpg; sourceTree = "<group>"; };
+		3C887E7F189EC3670024F04D /* TheIndependent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheIndependent.jpg; sourceTree = "<group>"; };
+		3C887E80189EC3670024F04D /* TheInevitable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheInevitable.jpg; sourceTree = "<group>"; };
+		3C887E81189EC3670024F04D /* TheLastDay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheLastDay.jpg; sourceTree = "<group>"; };
+		3C887E82189EC3670024F04D /* TheMessenger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheMessenger.jpg; sourceTree = "<group>"; };
+		3C887E83189EC3670024F04D /* TheMuslims.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheMuslims.jpg; sourceTree = "<group>"; };
+		3C887E84189EC3670024F04D /* TheNaturalExtension.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheNaturalExtension.jpg; sourceTree = "<group>"; };
+		3C887E85189EC3670024F04D /* TheOpening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheOpening.jpg; sourceTree = "<group>"; };
+		3C887E86189EC3670024F04D /* TheQuran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheQuran.jpg; sourceTree = "<group>"; };
+		3C887E87189EC3670024F04D /* TheRaceForWealth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheRaceForWealth.jpg; sourceTree = "<group>"; };
+		3C887E88189EC3670024F04D /* TheReward.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheReward.jpg; sourceTree = "<group>"; };
+		3C887E89189EC3670024F04D /* TheSceptic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheSceptic.jpg; sourceTree = "<group>"; };
+		3C887E8A189EC3670024F04D /* TheShadow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheShadow.jpg; sourceTree = "<group>"; };
+		3C887E8B189EC3670024F04D /* TheStoryOfQarun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheStoryOfQarun.jpg; sourceTree = "<group>"; };
+		3C887E8C189EC3670024F04D /* TheTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheTest.jpg; sourceTree = "<group>"; };
+		3C887E8D189EC3670024F04D /* TheTrance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheTrance.jpg; sourceTree = "<group>"; };
+		3C887E8E189EC3670024F04D /* TheWayOfTheProphets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheWayOfTheProphets.jpg; sourceTree = "<group>"; };
+		3C887E8F189EC3670024F04D /* ThisLife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThisLife.jpg; sourceTree = "<group>"; };
+		3C887E90189EC3670024F04D /* Time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Time.jpg; sourceTree = "<group>"; };
+		3C887E91189EC3670024F04D /* Tranquility.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tranquility.jpg; sourceTree = "<group>"; };
+		3C887E92189EC3670024F04D /* Trinity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trinity.jpg; sourceTree = "<group>"; };
+		3C887E93189EC3670024F04D /* TruthAndFalsehood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TruthAndFalsehood.jpg; sourceTree = "<group>"; };
+		3C887E94189EC3670024F04D /* TwoBrothers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TwoBrothers.jpg; sourceTree = "<group>"; };
+		3C887E95189EC3670024F04D /* UniversalJustice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UniversalJustice.jpg; sourceTree = "<group>"; };
+		3C887E96189EC3670024F04D /* UsingReason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UsingReason.jpg; sourceTree = "<group>"; };
+		3C887E97189EC3670024F04D /* UsingYourGifts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UsingYourGifts.jpg; sourceTree = "<group>"; };
+		3C887E98189EC3670024F04D /* Vision.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vision.jpg; sourceTree = "<group>"; };
+		3C887E99189EC3670024F04D /* WhenInNeed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhenInNeed.jpg; sourceTree = "<group>"; };
+		3C887E9A189EC3670024F04D /* Wisdom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wisdom.jpg; sourceTree = "<group>"; };
+		3C887E9B189EC3670024F04D /* WorkWithoutFaith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WorkWithoutFaith.jpg; sourceTree = "<group>"; };
+		3C887E9C189EC3670024F04D /* Worship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Worship.jpg; sourceTree = "<group>"; };
+		3C887F15189ECFE50024F04D /* GridFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridFlowLayout.h; sourceTree = "<group>"; };
+		3C887F16189ECFE60024F04D /* GridFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridFlowLayout.m; sourceTree = "<group>"; };
+		3C887F18189EEFF00024F04D /* ThumbnailsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThumbnailsData.plist; sourceTree = "<group>"; };
+		3C887F1C189EF1FD0024F04D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C455E0D188CD997005F8355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C455E16188CD997005F8355 /* CoreGraphics.framework in Frameworks */,
+				3C455E18188CD997005F8355 /* UIKit.framework in Frameworks */,
+				3C455E14188CD997005F8355 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C455E31188CD997005F8355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C455E36188CD997005F8355 /* XCTest.framework in Frameworks */,
+				3C455E38188CD997005F8355 /* UIKit.framework in Frameworks */,
+				3C455E37188CD997005F8355 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C455E07188CD996005F8355 = {
+			isa = PBXGroup;
+			children = (
+				3C455E19188CD997005F8355 /* QuranShortJourney */,
+				3C455E3B188CD997005F8355 /* QuranShortJourneyTests */,
+				3C455E12188CD997005F8355 /* Frameworks */,
+				3C455E11188CD997005F8355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C455E11188CD997005F8355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C455E10188CD997005F8355 /* QuranShortJourney.app */,
+				3C455E34188CD997005F8355 /* QuranShortJourneyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C455E12188CD997005F8355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C455E13188CD997005F8355 /* Foundation.framework */,
+				3C455E15188CD997005F8355 /* CoreGraphics.framework */,
+				3C455E17188CD997005F8355 /* UIKit.framework */,
+				3C455E35188CD997005F8355 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C455E19188CD997005F8355 /* QuranShortJourney */ = {
+			isa = PBXGroup;
+			children = (
+				3C887E24189EC0F60024F04D /* Service */,
+				3C887E1C189EBB290024F04D /* ViewControllers */,
+				3C887E1B189EBA540024F04D /* Images */,
+				3C455E22188CD997005F8355 /* AppDelegate.h */,
+				3C455E23188CD997005F8355 /* AppDelegate.m */,
+				3C455E25188CD997005F8355 /* Main_iPhone.storyboard */,
+				3C455E28188CD997005F8355 /* Main_iPad.storyboard */,
+				3C455E2E188CD997005F8355 /* Images.xcassets */,
+				3C455E1A188CD997005F8355 /* Supporting Files */,
+			);
+			path = QuranShortJourney;
+			sourceTree = "<group>";
+		};
+		3C455E1A188CD997005F8355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C887F18189EEFF00024F04D /* ThumbnailsData.plist */,
+				3C455E1B188CD997005F8355 /* QuranShortJourney-Info.plist */,
+				3C455E1C188CD997005F8355 /* InfoPlist.strings */,
+				3C455E1F188CD997005F8355 /* main.m */,
+				3C455E21188CD997005F8355 /* QuranShortJourney-Prefix.pch */,
+				3C887F1C189EF1FD0024F04D /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C455E3B188CD997005F8355 /* QuranShortJourneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C455E41188CD997005F8355 /* QuranShortJourneyTests.m */,
+				3C455E3C188CD997005F8355 /* Supporting Files */,
+			);
+			path = QuranShortJourneyTests;
+			sourceTree = "<group>";
+		};
+		3C455E3C188CD997005F8355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C455E3D188CD997005F8355 /* QuranShortJourneyTests-Info.plist */,
+				3C455E3E188CD997005F8355 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C887E1B189EBA540024F04D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3C887E25189EC3670024F04D /* Arrogance.jpg */,
+				3C887E26189EC3670024F04D /* AtomsWeight.jpg */,
+				3C887E27189EC3670024F04D /* Balance.jpg */,
+				3C887E28189EC3670024F04D /* Charity.jpg */,
+				3C887E29189EC3670024F04D /* ClingingSubstance.jpg */,
+				3C887E2A189EC3670024F04D /* CloserAndCloser.jpg */,
+				3C887E2B189EC3670024F04D /* CommonGround.jpg */,
+				3C887E2C189EC3670024F04D /* CommonKindness.jpg */,
+				3C887E2D189EC3670024F04D /* Contemplation.jpg */,
+				3C887E2E189EC3670024F04D /* Contentment.jpg */,
+				3C887E2F189EC3670024F04D /* Conviction.jpg */,
+				3C887E30189EC3670024F04D /* Corruption.jpg */,
+				3C887E31189EC3670024F04D /* CreationOfTheUniverse.jpg */,
+				3C887E32189EC3670024F04D /* Daybreak.jpg */,
+				3C887E33189EC3670024F04D /* DayOfJudgement.jpg */,
+				3C887E34189EC3670024F04D /* Death.jpg */,
+				3C887E35189EC3670024F04D /* DepressionAndSatisfaction.jpg */,
+				3C887E36189EC3670024F04D /* Destiny.jpg */,
+				3C887E37189EC3670024F04D /* DifficultCreation.jpg */,
+				3C887E38189EC3670024F04D /* Disbelievers.jpg */,
+				3C887E39189EC3670024F04D /* Disgrace.jpg */,
+				3C887E3A189EC3670024F04D /* DivineLove.jpg */,
+				3C887E3B189EC3670024F04D /* DropOfFluid.jpg */,
+				3C887E3C189EC3670024F04D /* EaseAndHardship.jpg */,
+				3C887E3D189EC3670024F04D /* Equality.jpg */,
+				3C887E3E189EC3670024F04D /* Favours.jpg */,
+				3C887E3F189EC3670024F04D /* Forgiveness.jpg */,
+				3C887E40189EC3670024F04D /* FriendsOfGod.jpg */,
+				3C887E41189EC3670024F04D /* God.jpg */,
+				3C887E42189EC3670024F04D /* GodsKnowledge.jpg */,
+				3C887E43189EC3670024F04D /* GodsNames.jpg */,
+				3C887E44189EC3670024F04D /* GodsOneness.jpg */,
+				3C887E45189EC3670024F04D /* GoodAndBadWord.jpg */,
+				3C887E46189EC3670024F04D /* Goodness.jpg */,
+				3C887E47189EC3670024F04D /* Gratitude.jpg */,
+				3C887E48189EC3670024F04D /* Guidance.jpg */,
+				3C887E49189EC3670024F04D /* Healing.jpg */,
+				3C887E4A189EC3670024F04D /* Honour.jpg */,
+				3C887E4B189EC3670024F04D /* HostileAndFriendlyDisbelievers.jpg */,
+				3C887E4C189EC3670024F04D /* Human.jpg */,
+				3C887E4D189EC3670024F04D /* Humanity.jpg */,
+				3C887E4E189EC3670024F04D /* Humankind.jpg */,
+				3C887E4F189EC3670024F04D /* ImportanceOfReasoning.jpg */,
+				3C887E50189EC3670024F04D /* InimitableQuran.jpg */,
+				3C887E51189EC3670024F04D /* InnerPeace.jpg */,
+				3C887E52189EC3670024F04D /* Islam.jpg */,
+				3C887E53189EC3670024F04D /* Jesus.jpg */,
+				3C887E54189EC3670024F04D /* Jihad.jpg */,
+				3C887E55189EC3670024F04D /* Kinship.jpg */,
+				3C887E56189EC3670024F04D /* LawfulAndUnlawful.jpg */,
+				3C887E57189EC3670024F04D /* Light.jpg */,
+				3C887E58189EC3670024F04D /* Longing.jpg */,
+				3C887E59189EC3670024F04D /* LoveOfWealth.jpg */,
+				3C887E5A189EC3670024F04D /* Mary.jpg */,
+				3C887E5B189EC3670024F04D /* Materialism.jpg */,
+				3C887E5C189EC3670024F04D /* MenAndWomen.jpg */,
+				3C887E5D189EC3670024F04D /* Mercy.jpg */,
+				3C887E5E189EC3670024F04D /* Misfortune.jpg */,
+				3C887E5F189EC3670024F04D /* MorningBrightness.jpg */,
+				3C887E60189EC3670024F04D /* Muhammad.jpg */,
+				3C887E61189EC3670024F04D /* NaturalReligion.jpg */,
+				3C887E62189EC3670024F04D /* Nature.jpg */,
+				3C887E63189EC3670024F04D /* Observation.jpg */,
+				3C887E64189EC3670024F04D /* Pleasure.jpg */,
+				3C887E65189EC3670024F04D /* Powerless.jpg */,
+				3C887E66189EC3670024F04D /* Prayer.jpg */,
+				3C887E67189EC3670024F04D /* PreviousRevelations.jpg */,
+				3C887E68189EC3670024F04D /* Purpose.jpg */,
+				3C887E69189EC3670024F04D /* Quran.jpg */,
+				3C887E6A189EC3670024F04D /* Reflection.jpg */,
+				3C887E6B189EC3670024F04D /* RejectingReason.jpg */,
+				3C887E6C189EC3670024F04D /* ReligionOfAbraham.jpg */,
+				3C887E6D189EC3670024F04D /* RepellingEvil.jpg */,
+				3C887E6E189EC3670024F04D /* Resurrection.jpg */,
+				3C887E6F189EC3670024F04D /* SeeingGod.jpg */,
+				3C887E70189EC3670024F04D /* SignsOfGod.jpg */,
+				3C887E71189EC3670024F04D /* Sincerity.jpg */,
+				3C887E72189EC3670024F04D /* SocialJustice.jpg */,
+				3C887E73189EC3670024F04D /* StageToStage.jpg */,
+				3C887E74189EC3670024F04D /* SteepRoad.jpg */,
+				3C887E75189EC3670024F04D /* Submission.jpg */,
+				3C887E76189EC3670024F04D /* TenCommandments.jpg */,
+				3C887E77189EC3670024F04D /* TheAnnouncement.jpg */,
+				3C887E78189EC3670024F04D /* TheBee.jpg */,
+				3C887E79189EC3670024F04D /* TheBelieversPrayer.jpg */,
+				3C887E7A189EC3670024F04D /* TheBooks.jpg */,
+				3C887E7B189EC3670024F04D /* TheCreatorOfColour.jpg */,
+				3C887E7C189EC3670024F04D /* TheEase.jpg */,
+				3C887E7D189EC3670024F04D /* TheGardeners.jpg */,
+				3C887E7E189EC3670024F04D /* TheHumble.jpg */,
+				3C887E7F189EC3670024F04D /* TheIndependent.jpg */,
+				3C887E80189EC3670024F04D /* TheInevitable.jpg */,
+				3C887E81189EC3670024F04D /* TheLastDay.jpg */,
+				3C887E82189EC3670024F04D /* TheMessenger.jpg */,
+				3C887E83189EC3670024F04D /* TheMuslims.jpg */,
+				3C887E84189EC3670024F04D /* TheNaturalExtension.jpg */,
+				3C887E85189EC3670024F04D /* TheOpening.jpg */,
+				3C887E86189EC3670024F04D /* TheQuran.jpg */,
+				3C887E87189EC3670024F04D /* TheRaceForWealth.jpg */,
+				3C887E88189EC3670024F04D /* TheReward.jpg */,
+				3C887E89189EC3670024F04D /* TheSceptic.jpg */,
+				3C887E8A189EC3670024F04D /* TheShadow.jpg */,
+				3C887E8B189EC3670024F04D /* TheStoryOfQarun.jpg */,
+				3C887E8C189EC3670024F04D /* TheTest.jpg */,
+				3C887E8D189EC3670024F04D /* TheTrance.jpg */,
+				3C887E8E189EC3670024F04D /* TheWayOfTheProphets.jpg */,
+				3C887E8F189EC3670024F04D /* ThisLife.jpg */,
+				3C887E90189EC3670024F04D /* Time.jpg */,
+				3C887E91189EC3670024F04D /* Tranquility.jpg */,
+				3C887E92189EC3670024F04D /* Trinity.jpg */,
+				3C887E93189EC3670024F04D /* TruthAndFalsehood.jpg */,
+				3C887E94189EC3670024F04D /* TwoBrothers.jpg */,
+				3C887E95189EC3670024F04D /* UniversalJustice.jpg */,
+				3C887E96189EC3670024F04D /* UsingReason.jpg */,
+				3C887E97189EC3670024F04D /* UsingYourGifts.jpg */,
+				3C887E98189EC3670024F04D /* Vision.jpg */,
+				3C887E99189EC3670024F04D /* WhenInNeed.jpg */,
+				3C887E9A189EC3670024F04D /* Wisdom.jpg */,
+				3C887E9B189EC3670024F04D /* WorkWithoutFaith.jpg */,
+				3C887E9C189EC3670024F04D /* Worship.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3C887E1C189EBB290024F04D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C887E20189EBED80024F04D /* CellViews */,
+				3C455E2B188CD997005F8355 /* GridViewController.h */,
+				3C455E2C188CD997005F8355 /* GridViewController.m */,
+				3C887F15189ECFE50024F04D /* GridFlowLayout.h */,
+				3C887F16189ECFE60024F04D /* GridFlowLayout.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3C887E20189EBED80024F04D /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				3C887E21189EBF580024F04D /* ThumbnailCell.h */,
+				3C887E22189EBF580024F04D /* ThumbnailCell.m */,
+			);
+			name = CellViews;
+			sourceTree = "<group>";
+		};
+		3C887E24189EC0F60024F04D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3C887E1D189EBB440024F04D /* DataManager.h */,
+				3C887E1E189EBB440024F04D /* DataManager.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C455E0F188CD997005F8355 /* QuranShortJourney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C455E45188CD997005F8355 /* Build configuration list for PBXNativeTarget "QuranShortJourney" */;
+			buildPhases = (
+				3C455E0C188CD997005F8355 /* Sources */,
+				3C455E0D188CD997005F8355 /* Frameworks */,
+				3C455E0E188CD997005F8355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuranShortJourney;
+			productName = QuranShortJourney;
+			productReference = 3C455E10188CD997005F8355 /* QuranShortJourney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C455E33188CD997005F8355 /* QuranShortJourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C455E48188CD997005F8355 /* Build configuration list for PBXNativeTarget "QuranShortJourneyTests" */;
+			buildPhases = (
+				3C455E30188CD997005F8355 /* Sources */,
+				3C455E31188CD997005F8355 /* Frameworks */,
+				3C455E32188CD997005F8355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C455E3A188CD997005F8355 /* PBXTargetDependency */,
+			);
+			name = QuranShortJourneyTests;
+			productName = QuranShortJourneyTests;
+			productReference = 3C455E34188CD997005F8355 /* QuranShortJourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C455E08188CD996005F8355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tabish Fayyaz Mufti";
+				TargetAttributes = {
+					3C455E0F188CD997005F8355 = {
+						DevelopmentTeam = 65KSNR7P3X;
+					};
+					3C455E33188CD997005F8355 = {
+						TestTargetID = 3C455E0F188CD997005F8355;
+					};
+				};
+			};
+			buildConfigurationList = 3C455E0B188CD996005F8355 /* Build configuration list for PBXProject "QuranShortJourney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C455E07188CD996005F8355;
+			productRefGroup = 3C455E11188CD997005F8355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C455E0F188CD997005F8355 /* QuranShortJourney */,
+				3C455E33188CD997005F8355 /* QuranShortJourneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C455E0E188CD997005F8355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C887EA3189EC3670024F04D /* CommonGround.jpg in Resources */,
+				3C887EF4189EC3670024F04D /* TheEase.jpg in Resources */,
+				3C887EA7189EC3670024F04D /* Conviction.jpg in Resources */,
+				3C887EBD189EC3670024F04D /* GoodAndBadWord.jpg in Resources */,
+				3C887EF8189EC3670024F04D /* TheInevitable.jpg in Resources */,
+				3C887ECD189EC3670024F04D /* Kinship.jpg in Resources */,
+				3C887EEF189EC3670024F04D /* TheAnnouncement.jpg in Resources */,
+				3C887F02189EC3670024F04D /* TheShadow.jpg in Resources */,
+				3C887EF6189EC3670024F04D /* TheHumble.jpg in Resources */,
+				3C887F01189EC3670024F04D /* TheSceptic.jpg in Resources */,
+				3C887EC0189EC3670024F04D /* Guidance.jpg in Resources */,
+				3C887EA8189EC3670024F04D /* Corruption.jpg in Resources */,
+				3C887EB7189EC3670024F04D /* Forgiveness.jpg in Resources */,
+				3C887F06189EC3670024F04D /* TheWayOfTheProphets.jpg in Resources */,
+				3C887EC5189EC3670024F04D /* Humanity.jpg in Resources */,
+				3C887EE0189EC3670024F04D /* Purpose.jpg in Resources */,
+				3C887EE1189EC3670024F04D /* Quran.jpg in Resources */,
+				3C887EC8189EC3670024F04D /* InimitableQuran.jpg in Resources */,
+				3C887EC6189EC3670024F04D /* Humankind.jpg in Resources */,
+				3C887EE3189EC3670024F04D /* RejectingReason.jpg in Resources */,
+				3C887EFA189EC3670024F04D /* TheMessenger.jpg in Resources */,
+				3C887EDA189EC3670024F04D /* Nature.jpg in Resources */,
+				3C887ED5189EC3670024F04D /* Mercy.jpg in Resources */,
+				3C887EEE189EC3670024F04D /* TenCommandments.jpg in Resources */,
+				3C887ED1189EC3670024F04D /* LoveOfWealth.jpg in Resources */,
+				3C887F13189EC3670024F04D /* WorkWithoutFaith.jpg in Resources */,
+				3C887EF5189EC3670024F04D /* TheGardeners.jpg in Resources */,
+				3C887EDB189EC3670024F04D /* Observation.jpg in Resources */,
+				3C887EFF189EC3670024F04D /* TheRaceForWealth.jpg in Resources */,
+				3C887F04189EC3670024F04D /* TheTest.jpg in Resources */,
+				3C887EAD189EC3670024F04D /* DepressionAndSatisfaction.jpg in Resources */,
+				3C887F1D189EF1FD0024F04D /* Localizable.strings in Resources */,
+				3C887EFD189EC3670024F04D /* TheOpening.jpg in Resources */,
+				3C887F0B189EC3670024F04D /* TruthAndFalsehood.jpg in Resources */,
+				3C887EBF189EC3670024F04D /* Gratitude.jpg in Resources */,
+				3C887EDD189EC3670024F04D /* Powerless.jpg in Resources */,
+				3C887EB6189EC3670024F04D /* Favours.jpg in Resources */,
+				3C887F09189EC3670024F04D /* Tranquility.jpg in Resources */,
+				3C887F0F189EC3670024F04D /* UsingYourGifts.jpg in Resources */,
+				3C887EDF189EC3670024F04D /* PreviousRevelations.jpg in Resources */,
+				3C887EA6189EC3670024F04D /* Contentment.jpg in Resources */,
+				3C887EA1189EC3670024F04D /* ClingingSubstance.jpg in Resources */,
+				3C455E2A188CD997005F8355 /* Main_iPad.storyboard in Resources */,
+				3C887F10189EC3670024F04D /* Vision.jpg in Resources */,
+				3C887EAC189EC3670024F04D /* Death.jpg in Resources */,
+				3C887F0C189EC3670024F04D /* TwoBrothers.jpg in Resources */,
+				3C887ECF189EC3670024F04D /* Light.jpg in Resources */,
+				3C887EBC189EC3670024F04D /* GodsOneness.jpg in Resources */,
+				3C887EB3189EC3670024F04D /* DropOfFluid.jpg in Resources */,
+				3C887EB0189EC3670024F04D /* Disbelievers.jpg in Resources */,
+				3C887EB4189EC3670024F04D /* EaseAndHardship.jpg in Resources */,
+				3C887EA5189EC3670024F04D /* Contemplation.jpg in Resources */,
+				3C887EE8189EC3670024F04D /* SignsOfGod.jpg in Resources */,
+				3C455E2F188CD997005F8355 /* Images.xcassets in Resources */,
+				3C887EF9189EC3670024F04D /* TheLastDay.jpg in Resources */,
+				3C887EF7189EC3670024F04D /* TheIndependent.jpg in Resources */,
+				3C887F03189EC3670024F04D /* TheStoryOfQarun.jpg in Resources */,
+				3C887E9E189EC3670024F04D /* AtomsWeight.jpg in Resources */,
+				3C887F12189EC3670024F04D /* Wisdom.jpg in Resources */,
+				3C887E9F189EC3670024F04D /* Balance.jpg in Resources */,
+				3C887EBA189EC3670024F04D /* GodsKnowledge.jpg in Resources */,
+				3C887F07189EC3670024F04D /* ThisLife.jpg in Resources */,
+				3C887EC9189EC3670024F04D /* InnerPeace.jpg in Resources */,
+				3C887EE9189EC3670024F04D /* Sincerity.jpg in Resources */,
+				3C887EDC189EC3670024F04D /* Pleasure.jpg in Resources */,
+				3C887EAE189EC3670024F04D /* Destiny.jpg in Resources */,
+				3C887EC1189EC3670024F04D /* Healing.jpg in Resources */,
+				3C887ED4189EC3670024F04D /* MenAndWomen.jpg in Resources */,
+				3C887ED3189EC3670024F04D /* Materialism.jpg in Resources */,
+				3C887EBE189EC3670024F04D /* Goodness.jpg in Resources */,
+				3C887F0A189EC3670024F04D /* Trinity.jpg in Resources */,
+				3C887ECE189EC3670024F04D /* LawfulAndUnlawful.jpg in Resources */,
+				3C887EFC189EC3670024F04D /* TheNaturalExtension.jpg in Resources */,
+				3C887EF2189EC3670024F04D /* TheBooks.jpg in Resources */,
+				3C887EC4189EC3670024F04D /* Human.jpg in Resources */,
+				3C887F14189EC3670024F04D /* Worship.jpg in Resources */,
+				3C887EFE189EC3670024F04D /* TheQuran.jpg in Resources */,
+				3C887EEC189EC3670024F04D /* SteepRoad.jpg in Resources */,
+				3C887EFB189EC3670024F04D /* TheMuslims.jpg in Resources */,
+				3C887ED8189EC3670024F04D /* Muhammad.jpg in Resources */,
+				3C887ED2189EC3670024F04D /* Mary.jpg in Resources */,
+				3C887F0D189EC3670024F04D /* UniversalJustice.jpg in Resources */,
+				3C887E9D189EC3670024F04D /* Arrogance.jpg in Resources */,
+				3C887EE6189EC3670024F04D /* Resurrection.jpg in Resources */,
+				3C887ECB189EC3670024F04D /* Jesus.jpg in Resources */,
+				3C887F05189EC3670024F04D /* TheTrance.jpg in Resources */,
+				3C887EAF189EC3670024F04D /* DifficultCreation.jpg in Resources */,
+				3C887ED9189EC3670024F04D /* NaturalReligion.jpg in Resources */,
+				3C887F11189EC3670024F04D /* WhenInNeed.jpg in Resources */,
+				3C887F0E189EC3670024F04D /* UsingReason.jpg in Resources */,
+				3C887EC7189EC3670024F04D /* ImportanceOfReasoning.jpg in Resources */,
+				3C455E27188CD997005F8355 /* Main_iPhone.storyboard in Resources */,
+				3C887EE2189EC3670024F04D /* Reflection.jpg in Resources */,
+				3C887EB9189EC3670024F04D /* God.jpg in Resources */,
+				3C887EAA189EC3670024F04D /* Daybreak.jpg in Resources */,
+				3C887EA2189EC3670024F04D /* CloserAndCloser.jpg in Resources */,
+				3C887EA9189EC3670024F04D /* CreationOfTheUniverse.jpg in Resources */,
+				3C887EF3189EC3670024F04D /* TheCreatorOfColour.jpg in Resources */,
+				3C887EA4189EC3670024F04D /* CommonKindness.jpg in Resources */,
+				3C887F08189EC3670024F04D /* Time.jpg in Resources */,
+				3C887ECC189EC3670024F04D /* Jihad.jpg in Resources */,
+				3C887EB8189EC3670024F04D /* FriendsOfGod.jpg in Resources */,
+				3C887F19189EEFF00024F04D /* ThumbnailsData.plist in Resources */,
+				3C887EDE189EC3670024F04D /* Prayer.jpg in Resources */,
+				3C887F00189EC3670024F04D /* TheReward.jpg in Resources */,
+				3C887ECA189EC3670024F04D /* Islam.jpg in Resources */,
+				3C887EA0189EC3670024F04D /* Charity.jpg in Resources */,
+				3C887EB1189EC3670024F04D /* Disgrace.jpg in Resources */,
+				3C887ED0189EC3670024F04D /* Longing.jpg in Resources */,
+				3C887EE4189EC3670024F04D /* ReligionOfAbraham.jpg in Resources */,
+				3C887EAB189EC3670024F04D /* DayOfJudgement.jpg in Resources */,
+				3C887EB2189EC3670024F04D /* DivineLove.jpg in Resources */,
+				3C887EB5189EC3670024F04D /* Equality.jpg in Resources */,
+				3C887ED6189EC3670024F04D /* Misfortune.jpg in Resources */,
+				3C887EE5189EC3670024F04D /* RepellingEvil.jpg in Resources */,
+				3C887EF0189EC3670024F04D /* TheBee.jpg in Resources */,
+				3C455E1E188CD997005F8355 /* InfoPlist.strings in Resources */,
+				3C887EED189EC3670024F04D /* Submission.jpg in Resources */,
+				3C887EEA189EC3670024F04D /* SocialJustice.jpg in Resources */,
+				3C887EC2189EC3670024F04D /* Honour.jpg in Resources */,
+				3C887EE7189EC3670024F04D /* SeeingGod.jpg in Resources */,
+				3C887EF1189EC3670024F04D /* TheBelieversPrayer.jpg in Resources */,
+				3C887EC3189EC3670024F04D /* HostileAndFriendlyDisbelievers.jpg in Resources */,
+				3C887EBB189EC3670024F04D /* GodsNames.jpg in Resources */,
+				3C887EEB189EC3670024F04D /* StageToStage.jpg in Resources */,
+				3C887ED7189EC3670024F04D /* MorningBrightness.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C455E32188CD997005F8355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C455E40188CD997005F8355 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C455E0C188CD997005F8355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C455E2D188CD997005F8355 /* GridViewController.m in Sources */,
+				3C887E1F189EBB440024F04D /* DataManager.m in Sources */,
+				3C887E23189EBF580024F04D /* ThumbnailCell.m in Sources */,
+				3C455E24188CD997005F8355 /* AppDelegate.m in Sources */,
+				3C455E20188CD997005F8355 /* main.m in Sources */,
+				3C887F17189ECFE60024F04D /* GridFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C455E30188CD997005F8355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C455E42188CD997005F8355 /* QuranShortJourneyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C455E3A188CD997005F8355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C455E0F188CD997005F8355 /* QuranShortJourney */;
+			targetProxy = 3C455E39188CD997005F8355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C455E1C188CD997005F8355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C455E1D188CD997005F8355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C455E25188CD997005F8355 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C455E26188CD997005F8355 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3C455E28188CD997005F8355 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C455E29188CD997005F8355 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3C455E3E188CD997005F8355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C455E3F188CD997005F8355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C455E43188CD997005F8355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C455E44188CD997005F8355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C455E46188CD997005F8355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuranShortJourney/QuranShortJourney-Prefix.pch";
+				INFOPLIST_FILE = "QuranShortJourney/QuranShortJourney-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C455E47188CD997005F8355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuranShortJourney/QuranShortJourney-Prefix.pch";
+				INFOPLIST_FILE = "QuranShortJourney/QuranShortJourney-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C455E49188CD997005F8355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuranShortJourney.app/QuranShortJourney";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuranShortJourney/QuranShortJourney-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuranShortJourneyTests/QuranShortJourneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C455E4A188CD997005F8355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuranShortJourney.app/QuranShortJourney";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuranShortJourney/QuranShortJourney-Prefix.pch";
+				INFOPLIST_FILE = "QuranShortJourneyTests/QuranShortJourneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C455E0B188CD996005F8355 /* Build configuration list for PBXProject "QuranShortJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C455E43188CD997005F8355 /* Debug */,
+				3C455E44188CD997005F8355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C455E45188CD997005F8355 /* Build configuration list for PBXNativeTarget "QuranShortJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C455E46188CD997005F8355 /* Debug */,
+				3C455E47188CD997005F8355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C455E48188CD997005F8355 /* Build configuration list for PBXNativeTarget "QuranShortJourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C455E49188CD997005F8355 /* Debug */,
+				3C455E4A188CD997005F8355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C455E08188CD996005F8355 /* Project object */;
+}
